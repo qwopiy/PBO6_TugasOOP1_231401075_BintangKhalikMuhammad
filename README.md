@@ -5,14 +5,14 @@ IKLCMart adalah sebuah toko online yang menjual berbagai macam produk teknologi.
 
 Sebagai seorang developer junior di tim IKLCMart, kamu ditugaskan untuk membuat sistem pembayaran online yang dapat menangani beberapa **metode pembayaran, menghitung total harga setelah diskon, dan menampilkan status pembayaran** kepada pengguna.
 
-### Payment Class
+### IKLCMart.Payment Class
 - Attribute: totalPrice, paymentMethod, paymentStatus
 - Constructor dengan parameter totalPrice dan paymentMethod
 - Overloading Method: Method menerima parameter paymentMethod (Credit Card, Bank Transfer, Voucher)
 - Void Method: Menampilan Detail pembayaran (paymentStatus dan paymentMethod)
 - Return Type Method: Mengembalikan totalPrice setelah di diskon jika memakai Voucher
 
-### Main Class
+### IKLCMart.Main Class
 - Inheritance
 - Menampilkan Total Harga sebelum diskon
 - Menampilkan Metode Pembayaran
@@ -32,3 +32,6 @@ Status Pembayaran: Pembayaran Berhasil dengan Voucher Diskon
 Total Harga Sebelum Diskon: Rp 1.200.000 <br>
 Metode Pembayaran: Transfer Bank <br>
 Status Pembayaran: Pembayaran Berhasil dengan Transfer Bank
+
+### Output : 
+![img.png](img.png)
